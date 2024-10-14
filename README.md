@@ -1,75 +1,38 @@
-# Nuxt 3 Minimal Starter
+# Drag and Drop List Reordering with Nuxt 3
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project implements a smooth drag-and-drop functionality to reorder list items using Vue 3's Composition API and TailwindCSS. It allows real-time reordering without placeholders or unwanted borders for a visually intuitive experience.
+
+## Features
+
+- Reorder list items by dragging and dropping.
+- Items shift smoothly in real time while dragging.
+- No unnecessary placeholders or borders during the drag process.
+- Optimized for a clean and responsive user interface.
 
 ## Setup
 
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+To install dependencies, use pnpm:
 ```
-
+pnpm install
+```
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+To start the development server:
+```
 pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+Access the app locally at `http://localhost:3000/testItems`.
 
-## Production
+## Build for Production
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
+To build the project for production:
+```
 pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
+To preview the production build:
+```
 pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
+## License
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT License.
